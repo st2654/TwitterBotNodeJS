@@ -31,7 +31,7 @@ access_token_secret : ''
  
 ### Post A Tweet
 ```javascript 
-node twitter_post_status -post type_your_post_here 
+node twitter_post_status.js -post type_your_post_here 
 ```
 
 ### Fetch recent tweets
