@@ -26,15 +26,11 @@ access_token_key : '',
 access_token_secret : ''
 });
 ```
-
-To run ```node js_file_name
-node twitter_recent_tweets.js```
-
-Usage : 
-# Post A Tweet
+#Usage : 
+### Post A Tweet
 ```javascript 
-node twitter_post_status -post type_your_post_here```
+node twitter_post_status -post type_your_post_here ```
 
-# Fetch recent tweets
+### Fetch recent tweets
 ```javascript
-node twitter_recent_tweets.js```
+node twitter_recent_tweets.js ```
