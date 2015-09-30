@@ -17,22 +17,24 @@ Get Consumer Key, Consumer Secret key, Access Token and Access Secret Key.
 
 You need this 4 keys to run this program. Fill it in this values
 
+#Usage :
+---
+
 ```javascript
 var client = new Twitter({
-	//Fill in Consumer keys and Access token from your twitter app
 consumer_key : '',
 consumer_secret : '',
 access_token_key : '',
 access_token_secret : ''
 });
 ```
-#Usage : 
+ 
 ### Post A Tweet
 ```javascript 
 node twitter_post_status -post type_your_post_here 
 ```
 
 ### Fetch recent tweets
-```python
+```javascript
 node twitter_recent_tweets.js 
 ```
