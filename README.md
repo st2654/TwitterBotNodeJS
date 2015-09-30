@@ -1,9 +1,9 @@
 #Twitter-Bot in NodeJs
 This is twitter NodeJS client to 
-[] Post the tweet
-[] Retweet the tweet
-[] Favorite the tweet
-[] Fetch the recent tweets on home timeline or user timeline
+* Post the tweet
+* Retweet the tweet
+* Favorite the tweet
+* Fetch the recent tweets on home timeline or user timeline
 
 To use this code first install 'twitter' an npm package
 ```javascript
@@ -29,8 +29,10 @@ access_token_secret : ''
 #Usage : 
 ### Post A Tweet
 ```javascript 
-node twitter_post_status -post type_your_post_here ```
+node twitter_post_status -post type_your_post_here 
+```
 
 ### Fetch recent tweets
 ```javascript
-node twitter_recent_tweets.js ```
+node twitter_recent_tweets.js 
+```
