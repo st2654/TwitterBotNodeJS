@@ -33,6 +33,6 @@ node twitter_post_status -post type_your_post_here
 ```
 
 ### Fetch recent tweets
-```javascript
+```python
 node twitter_recent_tweets.js 
 ```
